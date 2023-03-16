@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 *{
-    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
 }
 body{
     background: rgb(0, 0, 0);
@@ -21,6 +21,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -50px;
 }
 
 .log-in{
