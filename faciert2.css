@@ -4,10 +4,8 @@
 }
 
 body{
-    background: url(pexels-cherry-laithang-3459713.jpg) no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    background-position: center;
+    background: url(pexels-cherry-laithang-3459713.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .heading{
