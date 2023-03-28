@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    font-family: 'Pacifico', cursive;
+}
+
+body{
+    background: url(pexels-cherry-laithang-3459713.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+.headsecond{
+    display: flex;
+    align-items: center;
+}
+
+.signupfac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.about{
+    width: 25%;
+    padding: 110px 110px;
+
+}
+
+.btn:hover{
+    opacity: 0.7;
+    color: black;
+    background: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;  
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}

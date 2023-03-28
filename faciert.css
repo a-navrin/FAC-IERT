@@ -93,3 +93,9 @@ select{
     color: white;
     background-color: black;
 }
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
