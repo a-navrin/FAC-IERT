@@ -3,34 +3,37 @@
     font-family: 'Pacifico', cursive;
 }
 body{
-    background: rgb(0, 0, 0);
+    background: url(pexels-cherry-laithang-3459713.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    align-items: center;
 }
+
 .heading{
-    color: white;
-    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+.headsecond{
+    display: flex;
+    align-items: center;
 }
 
 .container{
-    color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 25%;
     align-items: center;
-    margin-top: -50px;
+    flex-direction: column;
+    padding: 40px 110px;
 }
 
-.log-in{
-    font-size: 30px;
-}
 .box{
     width: 100%;
     margin: 25px 0px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid;
 }
 .box input{
     background: none;
@@ -39,10 +42,8 @@ body{
     font-size: 20px;
     border: none;
     outline: none;
-    color: rgb(255, 255, 255);
 }
 .btn{
-    color: white;
     cursor: pointer;
     outline: none;
     margin: 20px 90px;
@@ -51,19 +52,17 @@ body{
     font-size: 18px;
     background: none;
     font-weight: bold;
-    border-color: white;
 }
 .btn:hover{
     opacity: 0.7;
     color: black;
-    background: white;
 }
 .box i{
     width: 16%;
     text-align: center;
 }
 a{
-    color: white;
+    color: black;
     text-decoration: none;  
 }
 .signup{
@@ -71,31 +70,24 @@ a{
     font-weight: bold;
 }
 ::placeholder{
-    color: white;
-    opacity: 0.9;
+    color: black;
 }
 select{
     text-align: initial;
-    width: 200px;
+    width: 290px;
     padding: 7px 7px;
     margin: 0px 5px;
     background: none;
     background-color: transparent;
     font-size: 18px;
-    font-weight: bold;
     border: none;
-}
-#year{
-    color: white;
-    background-color: black;
-}
-#branch{
-    color: white;
-    background-color: black;
 }
 
 .bottom{
     display: flex;
     justify-content: center;
-    color: white;
+}
+
+footer{
+    margin-top: auto;
 }
