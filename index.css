@@ -18,6 +18,20 @@ body{
     padding: 0px 25px;
 }
 
+.headfirst img{
+    height: 46px;
+    width: 50px;
+}
+
+.headfirst{
+    display: flex;
+    align-items: center;
+}
+
+.space{
+    height: 46px;
+    width: 20px;
+}
 .headsecond{
     display: flex;
     align-items: center;
@@ -34,7 +48,7 @@ body{
 
 .about{
     width: 25%;
-    padding: 110px 110px;
+    padding: 60px 120px;
 
 }
 
@@ -56,4 +70,29 @@ a{
 
 footer{
     margin-top: auto;
+}
+
+/*Phone*/
+@media(max-width:400px){
+    .heading{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 25px;
+        align-items: center;
+    }
+    .about{
+        text-align: center;
+        width: 80%;
+        padding: 110px 30px;
+    }
+
+}
+
+/*Tablet*/
+@media (min-width:401px) and (max-width:950px){
+    .about{
+        width: auto;
+        padding: auto 60px;
+    }
+
 }
